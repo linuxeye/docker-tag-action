@@ -9,9 +9,9 @@ branding:
 
 inputs:
   latest_git_branch:
-    description: 'Git branch name which will return "latest" as the Docker tag (default: master).'
+    description: 'Git branch name which will return "latest" as the Docker tag (default: main).'
     required: false
-    default: 'master'
+    default: 'main'
   latest_docker_tag_name:
     description: 'The name for the "latest" Docker tag (default: latest).'
     required: false
